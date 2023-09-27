@@ -12,15 +12,15 @@ const wait = () => {
 
 async function welcome() {
   const rainbow = chalkAnimation.rainbow(
-    `        Are you ready? \n \n        Lets Start Calculations \n \n      { Developed by Ahmad Bilal Farooqi } \n`
+    `        Are you ready? \n \n        Lets Start Calculations \n \n      { Developed by Muhammad Nouman Attique } \n`
   );
   await wait();
   rainbow.stop();
   console.log(
     chalk.yellowBright(
-      `       _____________________
+      `_____________________
       |  _________________  |
-      | | JO  3.141592654 | |
+      | | JO  9.876543210 | |
       | |_________________| |
       |  __ __ __ __ __ __  |
       | |__|__|__|__|__|__| |
@@ -123,4 +123,4 @@ async function againStart() {
     again.restart === "YES"
   );
 }
-againStart();
+againStart(); 
